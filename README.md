@@ -31,8 +31,19 @@ visualization.
    
    ![Customer Analysis](/page4_customer_analysis.png)
    
-## Key Insights
-- Technology is the highest revenue category ($836K)
-- West region leads in both sales and profit
-- Consumer segment accounts for 51.94% of sales
-- Sean Miller is the top customer by sales value
+## Project Highlights
+
+- Built a complete end-to-end data pipeline from raw CSV 
+  to interactive dashboard
+- Designed and implemented a PostgreSQL 18 database with 
+  structured tables and optimized views
+- Wrote SQL queries using aggregations, date functions, 
+  and window-ready views for clean data delivery
+- Connected Power BI directly to PostgreSQL using a 
+  database view (vw_sales_summary) — not a flat file
+- Built 4 interactive dashboard pages with slicers, 
+  KPI cards, maps, scatter plots and matrix tables
+- Applied DAX measures for dynamic Profit Margin % 
+  calculation inside Power BI
+- Followed a real industry workflow:
+  Raw Data → PostgreSQL → SQL Views → Power BI Dashboard
